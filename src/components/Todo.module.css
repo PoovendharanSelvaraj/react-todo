@@ -1,0 +1,66 @@
+.container {
+  margin-top: 100px;
+  width: 400px;
+  height: fit-content;
+  margin: auto;
+  background-color: gainsboro;
+  padding: 10px;
+}
+.container > input {
+  width: 75%;
+  height: 30px;
+  margin-top: 10px;
+  font-size: large;
+}
+.container > input:focus {
+  outline-style: none;
+}
+.container > button {
+  height: 35px;
+  margin-left: 5px;
+  padding: 2px 10px 7px 10px;
+  border: none;
+  background-color: white;
+  font-weight: lighter;
+  font-size: x-large;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+}
+.list h2 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.list input {
+  -webkit-appearance: none;
+  border: 1px solid gray;
+  width: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.divin {
+  display: flex;
+}
+.list button {
+  border: none;
+  color: gray;
+  background-color: transparent;
+  height: 30px;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: xx-large;
+  margin: 10px;
+}
+.list input:checked {
+  background-color: green;
+}
