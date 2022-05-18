@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Todo.module.css";
+import { TodoItem } from "./TodoItem";
 import { TodoList } from "./TodoList";
 
 export const Todo = () => {
@@ -20,7 +21,9 @@ export const Todo = () => {
   return (
     <div className={styles.container}>
       {todos.map((todo) => (
-        <TodoList key={todo.id} todo={todo} onDelete={onDelete} />
+        <TodoList>
+          <TodoItem key={todo.id} todo={todo} onDelete={onDelete} />
+        </TodoList>
       ))}
 
       <input
