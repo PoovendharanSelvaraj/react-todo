@@ -64,3 +64,7 @@
 .list input:checked {
   background-color: green;
 }
+.finish {
+  text-decoration: line-through;
+  color: red;
+}
